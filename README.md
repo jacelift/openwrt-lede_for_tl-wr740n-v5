@@ -103,12 +103,15 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin make -j$(($(np
 PS:clone from lean's lede on 2021.11.4
 
 1.【修改文件:添加wr740n-v5配置信息】
-
+```bash
 /target/linux/ath79/image/generic-tp-link.mk
-
 /target/linux/ath79/image/tiny-tp-link.mk
-
 /target/linux/ath79/generic/base-files/etc/board.d/02_network
-
-
+```
+2.【修改文件：feeds.conf.default添加以下几条】
+```bash
+#src-git helloworld https://github.com/fw876/helloworld
+src-git kenzo https://github.com/kenzok8/openwrt-packages
+src-git small https://github.com/kenzok8/small
+```
 
