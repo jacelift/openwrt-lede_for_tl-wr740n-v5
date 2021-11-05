@@ -103,7 +103,12 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin make -j$(($(np
 PS:clone from lean's lede on 2021.11.4
 
 1.【修改文件:添加wr740n-v5配置信息】
+
 /target/linux/ath79/image/generic-tp-link.mk
+
 /target/linux/ath79/image/tiny-tp-link.mk
+
 /target/linux/ath79/generic/base-files/etc/board.d/02_network
+
+
 
