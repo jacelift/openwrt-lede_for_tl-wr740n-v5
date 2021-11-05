@@ -264,12 +264,12 @@ endef
 TARGET_DEVICES += tplink_tl-wr740n-v4
 
 define Device/tplink_tl-wr740n-v5
-  $(Device/tplink-4mlzma)
+  $(Device/tplink-16mlzma)
   SOC := ar9331
   DEVICE_MODEL := TL-WR740N
   DEVICE_VARIANT := v5
   TPLINK_HWID := 0x07400005
-  SUPPORTED_DEVICES += tl-wr741nd-v4
+  SUPPORTED_DEVICES += tl-wr740n
 endef
 TARGET_DEVICES += tplink_tl-wr740n-v5
 
