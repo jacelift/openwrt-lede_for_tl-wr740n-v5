@@ -97,3 +97,12 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin make -j$(($(np
 ### 微信
 
 ![wechat](doc/wechat_donate.jpg)
+
+
+
+PS:clone from lean's lede on 2021.11.4
+
+1.【修改文件】
+
+/target/linux/ath79/image/generic-tp-link.mk
+/target/linux/ath79/image/tiny-tp-link.mk
