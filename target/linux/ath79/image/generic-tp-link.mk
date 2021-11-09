@@ -738,11 +738,10 @@ endef
 TARGET_DEVICES += tplink_tl-wr2543-v1
 
 define Device/tplink_tl-wr710n-v1
-  $(Device/tplink-8mlzma)
+  $(Device/tplink-16mlzma)
   SOC := ar9331
   DEVICE_MODEL := TL-WR710N
   DEVICE_VARIANT := v1
-  DEVICE_PACKAGES := kmod-usb-chipidea2 kmod-usb-ledtrig-usbport
   TPLINK_HWID := 0x07100001
   SUPPORTED_DEVICES += tl-wr710n
 endef
